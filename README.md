@@ -23,7 +23,7 @@ virtualenv venv -p python3
 enable the virtual env and installing the pre-requirement packages
 ```bash
 source venv/bin/activate
-pip3 install -re requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Roadmap
