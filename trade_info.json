@@ -1,0 +1,15 @@
+{
+    "channel": "trades",
+    "market": "BTC/USD",
+    "type": "update",
+    "data": [
+        {
+            "id": 4840432684,
+            "price": 20265.0,
+            "size": 0.0002,
+            "side": "buy",
+            "liquidation": false,
+            "time": "2022-08-29T16:38:51.727118+00:00"
+        }
+    ]
+}

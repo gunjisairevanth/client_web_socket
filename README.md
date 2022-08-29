@@ -42,8 +42,13 @@ pip3 install -r requirements.txt
 
 ## Doubts
 
-As i seen, there is no specific channel for consuming the Crypto currenct timeseries trading data. So need a clarity on channel.
+As i seen, there is no specific channel mentioned in docs for consuming the Crypto currenct timeseries trading data. So need a clarity on that.
 
+binance provide Candlestick stream data based on interval. But there are not provide the informtaion that, how to send the cryto currency code in payload (Ref :https://binance-docs.github.io/apidocs/spot/en/#kline-candlestick-streams)
+
+huobiapi also providing the Candlestick stream data based on time interval. but symbol format for crypto currency was not updated in docs (Ref : https://huobiapi.github.io/docs/spot/v1/en/#market-candlestick)
+
+ftx providing only orderbook,trades and ticker data and using this data. calucating the dynamic OHLC data and storing was a bit diffiuclt and can't do it in a single python script. Because, it may leads to data lose and leads to more error rate in average margin values. A better system design required to provide a better solution for this task.
 
 ## Basic Pseudocode
 
